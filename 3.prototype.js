@@ -28,6 +28,8 @@ const book2 = new Book('General Theory of Relativity','Albert Einstein','1905');
 //console.log(book1.age());
 //console.log(book2.age());
 
-console.log(book1);
+console.log(book1.summary());
+console.log(book1.age);
 book1.change(2001);
-console.log(book1);
+console.log(book1.summary());
+console.log(book1.age);
